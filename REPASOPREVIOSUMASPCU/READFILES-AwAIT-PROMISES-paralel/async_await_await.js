@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs/promises'
+const { readFile } =require( 'node:fs/promises')
 
 console.log(".....leyendo arhivo1.....");
 
