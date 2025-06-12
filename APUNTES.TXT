@@ -1,0 +1,4 @@
+apredner algo nuevo , 12-06-2025
+
+repasar fs y readfile en adelante include lo nuevo
+
