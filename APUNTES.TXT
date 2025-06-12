@@ -1,4 +1,15 @@
 apredner algo nuevo , 12-06-2025
 2 cosas , path y leer directorio
 repasar fs y readfile en adelante include lo nuevo
+///////////////////////////7
+console.log(" leyendo ARCHIVO1..........>");
 
+
+
+'../archivo1.txt','utf-8'
+
+
+console.log("ARCHIVO1: ",text1);
+
+
+console.log("---------Hacer cosas mienstra se lee ARCHIVO1..........>");
