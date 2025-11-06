@@ -1,0 +1,14 @@
+{
+    // 1. Establecer ESLint como el formateador predeterminado para archivos JS/TS
+    "editor.codeActionsOnSave": {
+        // Habilita la corrección automática de problemas de ESLint al guardar
+        "source.fixAll.eslint": "explicit" 
+    },
+
+    // 2. Establecer el formateador predeterminado de VS Code
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // (Si usas Prettier)
+
+    // Si quieres que VS Code formatee el archivo, PERO que ESLint corrija los errores. 
+    // Si tienes conflictos entre Prettier y ESLint, necesitarás la integración `eslint-config-prettier`.
+    "editor.formatOnSave": true
+}
