@@ -166,31 +166,104 @@ fs.readdir('.')
 
 
 
- const fs = require('node:fs/promises')
+//  const fs = require('node:fs/promises')
 
 
- const folder=process.argv[2] ?? '.';
-fs.readdir(folder)
-    .then(files => {
+//  const folder=process.argv[2] ?? '.';
+// fs.readdir(folder)
+//     .then(files => {
 
-        files.forEach(file => {
+//         files.forEach(file => {
 
-            console.log(file);
+//             console.log(file);
 
 
+//         }
+//         )
+
+//     })
+
+//     .catch(
+
+//         err => {
+
+//             if (err) {
+
+//                 console.log("no hay la ruta requerida e..", err);
+//                 return;
+//             }
+//         }
+//     )
+
+
+
+
+
+
+//               }
+//         }
+//     )
+
+
+// */
+//           }
+//         }
+//     )
+
+
+// */
+/*
+const fs=require('node:fs')
+const folder=process.argv[2] ?? '.';
+ fs.readdir(folder,(err,files)=>{
+    if (err) {
+      
+        console.log('direcorio no valido no encontradooo',err);
+            return;
+    }
+
+      files.forEach(file=>{
+
+                 console.log(file);
+   
+        })
+ })
+
+ */
+
+
+
+
+
+
+ ///
+
+
+ ///
+
+ ///
+
+ const fs=require('node:fs/promises')
+const folder =process.argv[2] ?? '.';
+ fs.readdir(folder
+    
+ )
+    .then(files=>{
+        files.forEach(file=>{
+
+            console.log(file)
+        })
+
+    }
+       
+
+    ).catch(err=>{
+
+        if (err) {
+            
+            console.log('no escontraod o invalido todo',err)
+
+            return
+            
         }
-        )
-
     })
-
-    .catch(
-
-        err => {
-
-            if (err) {
-
-                console.log("no hay la ruta requerida e..", err);
-                return;
-            }
-        }
-    )

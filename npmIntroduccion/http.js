@@ -55,7 +55,7 @@ servidor.listen(0, () => {
   // // })
 // // })
 
-*/
+*//*
 const http = require('node:http')
 const servidor = http.createServer((req, resp) => {
   console.log('peticion recibida')
@@ -64,4 +64,24 @@ const servidor = http.createServer((req, resp) => {
 
 servidor.listen(0, () => {
   console.log(`esuchando es el puerto aleatorio http://localhost:${servidor.address().port}`)
+})
+*/
+
+//
+// // })
+// // })
+// // })
+
+// // })
+// // })
+// // })
+// // })
+// froma unica http
+const http = require('node:http')
+const server = http.createServer((req, resp) => {
+  console.log('recibiendo peticion')
+  resp.end('holi mundo')
+})
+server.listen(0, () => {
+  console.log(`escuchando en el puerto http://localhost:${server.address().port}`)
 })

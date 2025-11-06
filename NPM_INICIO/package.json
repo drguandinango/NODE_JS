@@ -1,0 +1,35 @@
+{
+  "name": "npm_inicio",
+  "version": "1.0.0",
+  "description": "intriducion a node js modules frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drguandinango/NODE_JS.git"
+  },
+  "keywords": [
+    "full",
+    "stack",
+    "developer"
+  ],
+  "author": "david g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drguandinango/NODE_JS/issues"
+  },
+  "homepage": "https://github.com/drguandinango/NODE_JS#readme",
+  "dependencies": {
+    "picocolors": "1.1.1"
+  },
+  "devDependencies": {
+    "standard": "17.1.2"
+
+    
+  }
+  , "eslintConfig":{
+    "extends":"standard"
+  }
+}
