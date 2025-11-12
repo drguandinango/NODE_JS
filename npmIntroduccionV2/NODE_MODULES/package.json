@@ -1,0 +1,28 @@
+{
+  "name": "uno",
+  "version": "1.0.0",
+  "description": "espaico detrabajo npmintroduccion2",
+  "keywords": [
+    "ingeneria",
+    "de",
+    "software"
+  ],
+  "homepage": "https://github.com/drguandinango/NODE_JS#readme",
+  "bugs": {
+    "url": "https://github.com/drguandinango/NODE_JS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drguandinango/NODE_JS.git"
+  },
+  "license": "ISC",
+  "author": "david g",
+  "type": "commonjs",
+  "main": "dos",
+  "scripts": {
+    "test": "sss"
+  },
+  "dependencies": {
+    "picocolors": "1.1.1"
+  }
+}

@@ -14,7 +14,6 @@ pero sin dependencias
 
 picocolors
 (ayuda a doratr de vdia al console log )
-
 npm install picolors
 
 version lens para que me dugiera la actuilzizacion de pocolocors
@@ -33,6 +32,8 @@ version lens para que me dugiera la actuilzizacion de pocolocors
  dependecias de produccion o de desarollo
 
  npm install standard -D{delvelopmemt production-->separacion devdependecess vs dependences}
+
+ VERSION LENS ->EXTENSIONS
 
 devDeoendences::::
    "eslintConfig":{
