@@ -24,7 +24,7 @@ function findAvailablePort (desiredPort) {
 
 module.exports = { findAvailablePort }
 */
-
+/*
 const net = require('node:net')
 // permite preguntar si el server esta abierno ono y perm//
 // y me permite levantarlo
@@ -35,3 +35,4 @@ function findAvalaiblePort (desiredPort) {
   /// quedado ahi
   // https://youtu.be/yB4n_K7dZV8?t=7938
 }
+*/
