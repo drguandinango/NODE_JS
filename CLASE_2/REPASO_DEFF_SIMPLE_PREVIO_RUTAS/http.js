@@ -8,7 +8,7 @@ const server=http.createServer((req,res)=>{
 
     console.log('peticion recibida',req.url)
     res.end('hola momundito')
-
+//https://youtu.be/YmZE1HXjpd4?t=1519
     //  if(req.url==='/'){//<-----------/////URLLL///////////////////////
 
     //     res.statusCode=200//ok
