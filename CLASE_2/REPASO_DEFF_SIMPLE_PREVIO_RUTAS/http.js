@@ -7,7 +7,7 @@ const desiredPort=process.env.PORT ?? 12345
 const server=http.createServer((req,res)=>{
 
     console.log('peticion recibida',req.url)
-    res.end('hola momundito')
+    res.end('hola momunditox')
 //https://youtu.be/YmZE1HXjpd4?t=1519
     //  if(req.url==='/'){//<-----------/////URLLL///////////////////////
 
